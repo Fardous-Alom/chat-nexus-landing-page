@@ -25,7 +25,7 @@ const Hero = () => {
           <h1 className="h1 mb-6">
             Explore the Possibilities of&nbsp;AI&nbsp;Chatting with {` `}
             <span className="inline-block relative">
-              Brainwave{" "}
+              Chat Nexus{" "}
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"
@@ -36,8 +36,8 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Unleash the power of AI within Brainwave. Upgrade your productivity
-            with Brainwave, the open AI chat app.
+            Unleash the power of AI within Chat Nexus. Upgrade your productivity
+            with Chat Nexus, the open AI chat app.
           </p>
           <Button href="/pricing" white>
             Get started
@@ -80,11 +80,11 @@ const Hero = () => {
 
             <Gradient />
           </div>
-          <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
+          <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] ">
             <img
               src={heroBackground}
-              className="w-full"
-              width={1440}
+              className="w-full bg-cover"
+              width={100}
               height={1800}
               alt="hero"
             />

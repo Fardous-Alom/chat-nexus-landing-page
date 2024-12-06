@@ -84,7 +84,7 @@ export const BackgroundCircles = ({ parallaxRef }) => {
           <div
             className={`w-6 h-6 -ml-3 -mt-3 bg-gradient-to-b from-[#88E5BE] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
               mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
-            }`}
+            } `}
           />
         </div>
 
